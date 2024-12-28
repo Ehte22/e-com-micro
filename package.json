@@ -1,0 +1,12 @@
+{
+  "name": "e-com-micro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-all": "concurrently \"cd auth/server && nodemon index.ts\" \"cd auth/client && npm start\" \"cd product/server && nodemon index.ts\" \"cd product/client && npm start\" \"cd cart/server && nodemon index.ts\" \"cd cart/client && npm start\" \"cd order/server && nodemon index.ts\" \"cd order/client && npm start\" \"cd main-app && npm start\" \"cd admin && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
